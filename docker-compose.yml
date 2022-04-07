@@ -8,9 +8,9 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Bangkok
-    volumes:
-      - ./config:/config
-      - ./recordings:/recordings
+    #volumes:
+      #- ./config:/config
+      #- ./recordings:/recordings
     ports:
       - 9981:9981
       - 9982:9982
