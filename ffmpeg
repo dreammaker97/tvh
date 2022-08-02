@@ -1,0 +1,2 @@
+HLS stream
+pipe:///usr/bin/ffmpeg -headers "referer: https://live.rakhoi1.live/" -i https://livefake.fastlycdnlive.xyz/live/_definst_/stream_1_a86e6@m203nd/chunklist.m3u8 -c copy -f mpegts pipe:1
